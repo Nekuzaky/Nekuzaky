@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:3d0000,100:8b0000&height=200&section=header&text=Nekuzaky&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Open-source%20Developer%20%E2%80%94%20Unity%20%2F%20C%23%20%C2%B7%20JavaScript%20%C2%B7%20Minecraft%20Mods&descAlignY=58&descSize=15&descFontColor=cccccc" width="100%"/>
+<img src="./banner.svg" width="100%" alt="Nekuzaky banner"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=8B0000&center=true&vCenter=true&width=600&lines=Open-source+developer+%E2%80%94+building+tools+that+matter.;Unity+%2F+C%23+%C2%B7+JavaScript+%C2%B7+Minecraft+Mods.;Founder+of+Altcore." alt="Typing animation" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=8B0000&center=true&vCenter=true&width=600&lines=Open-source+developer+%E2%80%94+building+tools+that+matter.;Unity+%2F+C%23+%C2%B7+JavaScript+%C2%B7+Minecraft+Mods.;Founder+of+Altcore.)](https://git.io/typing-svg)
 
 </div>
 
@@ -56,8 +56,9 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nekuzaky&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=8b0000&icon_color=8b0000&text_color=cccccc&border_color=2a0000&count_private=true&hide_border=false)](https://github.com/Nekuzaky)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nekuzaky&layout=compact&theme=dark&bg_color=0d0d0d&title_color=8b0000&text_color=cccccc&border_color=2a0000&hide_border=false&langs_count=6)](https://github.com/Nekuzaky)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nekuzaky&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=8b0000&icon_color=8b0000&text_color=cccccc&border_color=2a0000&count_private=true)](https://github.com/Nekuzaky)
+&nbsp;
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nekuzaky&layout=compact&theme=dark&bg_color=0d0d0d&title_color=8b0000&text_color=cccccc&border_color=2a0000&langs_count=6)](https://github.com/Nekuzaky)
 
 </div>
 
@@ -78,7 +79,5 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 <br/>
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b0000,50:3d0000,100:0d0d0d&height=100&section=footer" width="100%"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b0000,50:3d0000,100:0d0d0d&height=80&section=footer" width="100%"/>
 </div>
