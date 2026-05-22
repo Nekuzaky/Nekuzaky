@@ -2,6 +2,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:3d0000,100:8b0000&height=200&section=header&text=Nekuzaky&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Open-source%20Developer%20%E2%80%94%20Unity%20%2F%20C%23%20%C2%B7%20JavaScript%20%C2%B7%20Minecraft%20Mods&descAlignY=58&descSize=15&descFontColor=cccccc" width="100%"/>
 
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=8B0000&center=true&vCenter=true&width=600&lines=Open-source+developer+%E2%80%94+building+tools+that+matter.;Unity+%2F+C%23+%C2%B7+JavaScript+%C2%B7+Minecraft+Mods.;Founder+of+Altcore." alt="Typing animation" />
+
 </div>
 
 <br/>
@@ -52,14 +56,14 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Nekuzaky&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=8b0000&icon_color=8b0000&text_color=cccccc&border_color=2a0000&hide_border=false&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nekuzaky&layout=compact&theme=dark&bg_color=0d0d0d&title_color=8b0000&text_color=cccccc&border_color=2a0000&hide_border=false&langs_count=6" />
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nekuzaky&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=8b0000&icon_color=8b0000&text_color=cccccc&border_color=2a0000&count_private=true&hide_border=false)](https://github.com/Nekuzaky)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nekuzaky&layout=compact&theme=dark&bg_color=0d0d0d&title_color=8b0000&text_color=cccccc&border_color=2a0000&hide_border=false&langs_count=6)](https://github.com/Nekuzaky)
 
 </div>
 
 <div align="center">
 
-![Streak](https://streak-stats.demolab.com/?user=Nekuzaky&theme=dark&background=0d0d0d&ring=8b0000&fire=8b0000&currStreakLabel=cccccc&sideLabels=cccccc&dates=666666&border=2a0000)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Nekuzaky&theme=dark&background=0d0d0d&ring=8b0000&fire=8b0000&currStreakLabel=cccccc&sideLabels=cccccc&dates=666666&border=2a0000)](https://github.com/Nekuzaky)
 
 </div>
 
