@@ -12,7 +12,7 @@
 
 ## About
 
-I'm **Nekuzaky**, an open-source developer and founder of [Altcore](https://www.nekuzaky.com/).  
+I'm **Nekuzaky**, an open-source developer.  
 I build tools, game systems, Discord bots, and Minecraft mods — focused on clean architecture and real utility.
 
 - Unity / C# — modular game tools, scriptable systems, game jam frameworks
