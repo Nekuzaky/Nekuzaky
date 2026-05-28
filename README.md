@@ -18,7 +18,6 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 - Unity / C# — modular game tools, scriptable systems, game jam frameworks
 - JavaScript / TypeScript — web applications, bots, and browser-based tools
 - Java / Fabric — Minecraft mod development, custom mechanics and gameplay systems
-- Founder of [Altcore](https://www.nekuzaky.com/) — tools for developers, creators, and gamers
 
 <br/>
 
