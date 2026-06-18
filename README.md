@@ -6,24 +6,24 @@
 
 <img src="https://komarev.com/ghpvc/?username=Nekuzaky&label=Profile%20Views&color=8b0000&style=flat-square" alt="profile views"/>
 
-[![Website](https://img.shields.io/badge/🌐_Website-1a0000?style=for-the-badge&logoColor=ff0000&labelColor=0d0d0d)](https://www.nekuzaky.com/)
-[![Mortis Clouds](https://img.shields.io/badge/☁️_Mortis_Clouds-1a0000?style=for-the-badge&labelColor=0d0d0d)](https://mortis.cloud/)
-[![Email](https://img.shields.io/badge/📫_Contact-8b0000?style=for-the-badge&labelColor=0d0d0d)](mailto:contact@nekuzaky.com)
+[![Website](https://img.shields.io/badge/Website-1a0000?style=for-the-badge&logoColor=ff0000&labelColor=0d0d0d)](https://www.nekuzaky.com/)
+[![Mortis Clouds](https://img.shields.io/badge/Mortis_Clouds-1a0000?style=for-the-badge&labelColor=0d0d0d)](https://mortis.cloud/)
+[![Email](https://img.shields.io/badge/Contact-8b0000?style=for-the-badge&labelColor=0d0d0d)](mailto:contact@nekuzaky.com)
 
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=3&section=header"/>
 
-## 🩸 About
+## About
 
 I'm **Nekuzaky**, an open-source developer.
 I build tools, game systems, Discord bots, and Minecraft mods — focused on clean architecture and real utility.
 
-- 🎮 **Unity / C#** — modular game tools, scriptable systems, game jam frameworks
-- 🌐 **JavaScript / TypeScript** — web applications, bots, and browser-based tools
-- ⛏️ **Java / Fabric** — Minecraft mod development, custom mechanics and gameplay systems
+- **Unity / C#** — modular game tools, scriptable systems, game jam frameworks
+- **JavaScript / TypeScript** — web applications, bots, and browser-based tools
+- **Java / Fabric** — Minecraft mod development, custom mechanics and gameplay systems
 
-## 🛠️ Stack
+## Stack
 
 <div align="center">
 
@@ -38,7 +38,7 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 </div>
 
-## 🔥 Featured Projects
+## Featured Projects
 
 | Project | Description | Tech |
 |---------|-------------|------|
@@ -49,7 +49,7 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 > Want to see more? All my other projects live here → **[nekuzaky.com](https://www.nekuzaky.com/)**
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -62,15 +62,15 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 </div>
 
-## 📫 Contact
+## Contact
 
-- 🌐 Website: [nekuzaky.com](https://www.nekuzaky.com/)
-- ☁️ Mortis Clouds: [mortis.cloud](https://mortis.cloud/)
-- 📫 Email: [contact@nekuzaky.com](mailto:contact@nekuzaky.com)
+- Website: [nekuzaky.com](https://www.nekuzaky.com/)
+- Mortis Clouds: [mortis.cloud](https://mortis.cloud/)
+- Email: [contact@nekuzaky.com](mailto:contact@nekuzaky.com)
 
 <div align="center">
 
-⭐ If you like my work, feel free to star my projects!
+If you like my work, feel free to star my projects!
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0000,50:ff0000,100:8b0000&height=120&section=footer"/>
 
