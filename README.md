@@ -1,25 +1,21 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Nekuzaky banner"/>
+# Hi, I'm **Nekuzaky** 👋
 
-<br/>
+### Open-source Developer — Unity / C# · JavaScript · Minecraft Mods
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=1000&color=8B0000&center=true&vCenter=true&width=600&lines=Open-source+developer+%E2%80%94+building+tools+that+matter.;Unity+%2F+C%23+%C2%B7+JavaScript+%C2%B7+Minecraft+Mods.;Founder+of+Altcore.)](https://git.io/typing-svg)
+[🌐 Website](https://www.nekuzaky.com/) · [📫 contact@nekuzaky.com](mailto:contact@nekuzaky.com)
 
 </div>
 
-<br/>
-
 ## About
 
-I'm **Nekuzaky**, an open-source developer.  
+I'm **Nekuzaky**, an open-source developer.
 I build tools, game systems, Discord bots, and Minecraft mods — focused on clean architecture and real utility.
 
 - Unity / C# — modular game tools, scriptable systems, game jam frameworks
 - JavaScript / TypeScript — web applications, bots, and browser-based tools
 - Java / Fabric — Minecraft mod development, custom mechanics and gameplay systems
-
-<br/>
 
 ## Stack
 
@@ -36,47 +32,25 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 </div>
 
-<br/>
+## Featured Projects
 
-## Projects
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**SanityCraft**](https://github.com/Nekuzaky/SanityCraft) | Minecraft mod introducing a sanity system and psychological survival mechanics | Java · Fabric |
+| [**BetterController**](https://github.com/Nekuzaky/BetterController) | Native Xbox, PlayStation and Switch controller support for Minecraft Java | Java · Fabric |
+| [**Chroma**](https://github.com/Nekuzaky/Chroma) | Supercharge your Unity workflow — color-codes, labels and organizes your Hierarchy at a glance | C# · Unity |
+| [**Mortis Clouds**](https://mortis.cloud/) | End-to-end encrypted markdown notes that sync in real time across your devices — not even the server can read them. Every note links into a living graph, and a single shared link turns your vault into an external brain that web AIs can read. | TypeScript · React |
 
-| Repository | Description | Tech |
-|---|---|---|
-| [UNITY-3D_TOOLKIT](https://github.com/Nekuzaky/UNITY-3D_TOOLKIT) | 300+ decoupled, scriptable-ready C# scripts for Unity game jams | C# · Unity |
-| [EasyBot-Discord](https://github.com/Nekuzaky/EasyBot-Discord) | Modular, open-source Discord bot framework | JavaScript |
-| [SanityCraft](https://github.com/Nekuzaky/SanityCraft) | Minecraft mod introducing a sanity system and psychological survival mechanics | Java · Fabric |
-| [BetterController](https://github.com/Nekuzaky/BetterController) | Native Xbox, PlayStation and Switch controller support for Minecraft Java | Java · Fabric |
-| [Altcore-Meme-Studio](https://github.com/Nekuzaky/Altcore-Meme-Studio) | Fast, template-based meme generator built with React and TailwindCSS | TypeScript · React |
-| [Altcore-Tools-Studio](https://github.com/Nekuzaky/Altcore-Tools-Studio) | Online toolbox for developers, creators and gamers | TypeScript |
-
-<br/>
-
-## Stats
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nekuzaky&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=8b0000&icon_color=8b0000&text_color=cccccc&border_color=2a0000&count_private=true)](https://github.com/Nekuzaky)
-&nbsp;
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nekuzaky&layout=compact&theme=dark&bg_color=0d0d0d&title_color=8b0000&text_color=cccccc&border_color=2a0000&langs_count=6)](https://github.com/Nekuzaky)
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Nekuzaky&theme=dark&background=0d0d0d&ring=8b0000&fire=8b0000&currStreakLabel=cccccc&sideLabels=cccccc&dates=666666&border=2a0000)](https://github.com/Nekuzaky)
-
-</div>
-
-<br/>
+> Want to see more? All my other projects live here → **[nekuzaky.com](https://www.nekuzaky.com/)**
 
 ## Contact
 
-- [nekuzaky.com](https://www.nekuzaky.com/)
-- [contact@nekuzaky.com](mailto:contact@nekuzaky.com)
-- [@nekuzaky](https://twitter.com/nekuzaky)
-
-<br/>
+- 🌐 Website: [nekuzaky.com](https://www.nekuzaky.com/)
+- ☁️ Mortis Clouds: [mortis.cloud](https://mortis.cloud/)
+- 📫 Email: [contact@nekuzaky.com](mailto:contact@nekuzaky.com)
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b0000,50:3d0000,100:0d0d0d&height=80&section=footer" width="100%"/>
+
+⭐ If you like my work, feel free to star my projects!
+
 </div>
