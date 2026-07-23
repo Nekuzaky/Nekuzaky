@@ -42,8 +42,8 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [**Kinema Motion Matching**](https://github.com/Nekuzaky/Kinema_Motion_Matching) | Data-driven motion matching locomotion for Unity — offline mocap bake pipeline, Burst-compiled weighted search, PlayableGraph runtime and an integrated editor window | C# · Unity |
-| [**BetterController**](https://github.com/Nekuzaky/BetterController) | Native Xbox, PlayStation and Switch controller support for Minecraft Java | Java · Fabric |
+| [**Kinema Motion Matching**](https://github.com/Nekuzaky/kinema-motion-matching) | Data-driven motion matching locomotion for Unity — offline mocap bake pipeline, Burst-compiled weighted search, PlayableGraph runtime and an integrated editor window | C# · Unity |
+| [**BetterController**](https://github.com/Nekuzaky/better-controller) | Native Xbox, PlayStation and Switch controller support for Minecraft Java | Java · Fabric |
 | [**Chroma**](https://github.com/Nekuzaky/Chroma) | Supercharge your Unity workflow — color-codes, labels and organizes your Hierarchy at a glance | C# · Unity |
 | [**Mortis Clouds**](https://mortis.cloud/) | End-to-end encrypted markdown notes that sync in real time across your devices — not even the server can read them. Every note links into a living graph, and a single shared link turns your vault into an external brain that web AIs can read. | TypeScript · React |
 
