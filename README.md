@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8b0000,50:ff0000,100:1a0000&height=200&section=header&text=Nekuzaky&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Open-source%20Developer&descSize=18&descAlignY=58" alt="header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8b0000,50:ff0000,100:1a0000&height=200&section=header&text=Nekuzaky&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer&descSize=18&descAlignY=58" alt="header"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF0000&center=true&vCenter=true&width=600&lines=Unity+%2F+C%23+Developer;JavaScript+%2F+TypeScript+Engineer;Minecraft+Mod+Creator;Building+tools+that+matter.)](https://www.nekuzaky.com/)
 
@@ -16,7 +16,7 @@
 
 ## About
 
-I'm **Nekuzaky**, an open-source developer.
+I'm **Nekuzaky**, a software developer.
 I build tools, game systems, Discord bots, and Minecraft mods — focused on clean architecture and real utility.
 
 - **Unity / C#** — modular game tools, scriptable systems, game jam frameworks
@@ -42,7 +42,7 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [**SanityCraft**](https://github.com/Nekuzaky/SanityCraft) | Minecraft mod introducing a sanity system and psychological survival mechanics | Java · Fabric |
+| [**Kinema Motion Matching**](https://github.com/Nekuzaky/Kinema_Motion_Matching) | Data-driven motion matching locomotion for Unity — offline mocap bake pipeline, Burst-compiled weighted search, PlayableGraph runtime and an integrated editor window | C# · Unity |
 | [**BetterController**](https://github.com/Nekuzaky/BetterController) | Native Xbox, PlayStation and Switch controller support for Minecraft Java | Java · Fabric |
 | [**Chroma**](https://github.com/Nekuzaky/Chroma) | Supercharge your Unity workflow — color-codes, labels and organizes your Hierarchy at a glance | C# · Unity |
 | [**Mortis Clouds**](https://mortis.cloud/) | End-to-end encrypted markdown notes that sync in real time across your devices — not even the server can read them. Every note links into a living graph, and a single shared link turns your vault into an external brain that web AIs can read. | TypeScript · React |
