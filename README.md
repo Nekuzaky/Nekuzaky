@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:707070,100:0a0a0a&height=200&section=header&text=Nekuzaky&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer&descSize=18&descAlignY=58" alt="header"/>
+<img width="100%" src="https://raw.githubusercontent.com/Nekuzaky/Nekuzaky/main/assets/header.svg" alt="Nekuzaky — Software Developer"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=D4D4D4&center=true&vCenter=true&width=600&lines=Unity+%2F+C%23+Developer;JavaScript+%2F+TypeScript+Engineer;Minecraft+Mod+Creator;Building+tools+that+matter.)](https://www.nekuzaky.com/)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=D4D4D4&center=true&vCenter=true&width=640&lines=Unity+%2F+C%23+Developer;JavaScript+%2F+TypeScript+Engineer;Minecraft+Mod+Creator;Building+tools+that+matter.;something+is+still+running+in+the+dark...)](https://www.nekuzaky.com/)
 
 <img src="https://komarev.com/ghpvc/?username=Nekuzaky&label=Profile%20Views&color=3a3a3a&style=flat-square" alt="profile views"/>
 
@@ -12,7 +12,7 @@
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0a0a,50:8a8a8a,100:0a0a0a&height=3&section=header"/>
+<img width="100%" src="https://raw.githubusercontent.com/Nekuzaky/Nekuzaky/main/assets/divider.svg" alt=""/>
 
 ## About
 
@@ -22,6 +22,8 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 - **Unity / C#** — modular game tools, scriptable systems, game jam frameworks
 - **JavaScript / TypeScript** — web applications, bots, and browser-based tools
 - **Java / Fabric** — Minecraft mod development, custom mechanics and gameplay systems
+
+<img width="100%" src="https://raw.githubusercontent.com/Nekuzaky/Nekuzaky/main/assets/divider.svg" alt=""/>
 
 ## Stack
 
@@ -38,6 +40,8 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 </div>
 
+<img width="100%" src="https://raw.githubusercontent.com/Nekuzaky/Nekuzaky/main/assets/divider.svg" alt=""/>
+
 ## Featured Projects
 
 | Project | Description | Tech |
@@ -48,6 +52,9 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 | [**Mortis Clouds**](https://mortis.cloud/) | End-to-end encrypted markdown notes that sync in real time across your devices — not even the server can read them. Every note links into a living graph, and a single shared link turns your vault into an external brain that web AIs can read. | TypeScript · React |
 
 > Want to see more? All my other projects live here → **[nekuzaky.com](https://www.nekuzaky.com/)**
+
+<img width="100%" src="https://raw.githubusercontent.com/Nekuzaky/Nekuzaky/main/assets/divider.svg" alt=""/>
+
 ## GitHub Stats
 
 <div align="center">
@@ -61,6 +68,8 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 </div>
 
+<img width="100%" src="https://raw.githubusercontent.com/Nekuzaky/Nekuzaky/main/assets/divider.svg" alt=""/>
+
 ## Contact
 
 - Website: [nekuzaky.com](https://www.nekuzaky.com/)
@@ -71,6 +80,6 @@ I build tools, game systems, Discord bots, and Minecraft mods — focused on cle
 
 If you like my work, feel free to star my projects!
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:707070,100:0a0a0a&height=120&section=footer"/>
+<img width="100%" src="https://raw.githubusercontent.com/Nekuzaky/Nekuzaky/main/assets/footer.svg" alt=""/>
 
 </div>
