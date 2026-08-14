@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" preserveAspectRatio="xMidYMid slice" role="img" aria-label="footer">
+  <defs>
+    <linearGradient id="fdark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#000000"/>
+      <stop offset="45%"  stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <filter id="fFog" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+    <filter id="fGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="fScan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <style>
+    .rise  { animation: up 24s ease-in-out infinite alternate; }
+    .rise2 { animation: up2 19s ease-in-out infinite alternate; }
+    @keyframes up  { from { transform: translate(-60px, 10px) } to { transform: translate(60px, -14px) } }
+    @keyframes up2 { from { transform: translate(50px, -8px)  } to { transform: translate(-50px, 12px) } }
+
+    .msg { animation: mflicker 9s steps(1,end) infinite; }
+    @keyframes mflicker {
+      0%,30%   { opacity: .55 }
+      31%      { opacity: .05 }
+      32%      { opacity: .7 }
+      33%,64%  { opacity: .55 }
+      65%      { opacity: .12 }
+      66%      { opacity: .8 }
+      67%,100% { opacity: .55 }
+    }
+    .eye { opacity: 0 }
+    .f1 { animation: blink 13s ease-in-out infinite  1.2s }
+    .f2 { animation: blink 10s ease-in-out infinite  5.8s }
+    .f3 { animation: blink 16s ease-in-out infinite  9.1s }
+    @keyframes blink {
+      0%,7%  { opacity: 0 }
+      10%    { opacity: .8 }
+      13%    { opacity: .1 }
+      16%    { opacity: .85 }
+      24%    { opacity: .6 }
+      28%    { opacity: 0 }
+      100%   { opacity: 0 }
+    }
+  </style>
+
+  <rect width="1200" height="150" fill="url(#fdark)"/>
+
+  <g filter="url(#fFog)" opacity="0.55">
+    <ellipse class="rise"  cx="300" cy="140" rx="290" ry="55" fill="#5f5f5f" opacity="0.30"/>
+    <ellipse class="rise2" cx="720" cy="152" rx="330" ry="50" fill="#707070" opacity="0.26"/>
+    <ellipse class="rise"  cx="1040" cy="136" rx="260" ry="58" fill="#4a4a4a" opacity="0.30"/>
+  </g>
+
+  <g>
+    <g class="eye f1" transform="translate(150,44)"><ellipse rx="8" ry="3.8" fill="#e0e0e0"/><circle r="2.3" fill="#0a0a0a"/></g>
+    <g class="eye f2" transform="translate(1060,58)"><ellipse rx="7" ry="3.3" fill="#dadada"/><circle r="2" fill="#0a0a0a"/></g>
+    <g class="eye f3" transform="translate(600,26)"><ellipse rx="6.5" ry="3.1" fill="#d2d2d2"/><circle r="1.9" fill="#0a0a0a"/></g>
+  </g>
+
+  <text class="msg" x="600" y="88" text-anchor="middle"
+        font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-size="15"
+        letter-spacing="7" fill="#e2e2e2" filter="url(#fGlow)">still watching</text>
+
+  <rect width="1200" height="150" fill="url(#fScan)"/>
+</svg>
