@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Nekuzaky - Software Developer">
+  <defs>
+    <radialGradient id="vig" cx="50%" cy="46%" r="72%">
+      <stop offset="0%" stop-color="#1c1c1c"/>
+      <stop offset="55%" stop-color="#0d0d0d"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="fogBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.055"/>
+    </pattern>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="260"/></clipPath>
+  </defs>
+
+  <style>
+    .fog   { animation: drift 34s ease-in-out infinite alternate; }
+    .fog2  { animation: drift2 27s ease-in-out infinite alternate; }
+    .fog3  { animation: drift 41s ease-in-out infinite alternate-reverse; }
+    @keyframes drift  { from { transform: translateX(-90px) } to { transform: translateX(90px) } }
+    @keyframes drift2 { from { transform: translateX(70px)  } to { transform: translateX(-70px) } }
+
+    .title { animation: flicker 7.5s steps(1, end) infinite; }
+    @keyframes flicker {
+      0%,10%   { opacity: 1 }
+      11%      { opacity: .18 }
+      12%      { opacity: 1 }
+      13%      { opacity: .42 }
+      14%,42%  { opacity: 1 }
+      43%      { opacity: .08 }
+      44%      { opacity: .9 }
+      45%      { opacity: .25 }
+      46%,73%  { opacity: 1 }
+      74%      { opacity: .5 }
+      75%      { opacity: 1 }
+      88%      { opacity: 1 }
+      89%      { opacity: .12 }
+      90%,100% { opacity: 1 }
+    }
+
+    .g1 { animation: glitchA 7.5s steps(1, end) infinite; }
+    .g2 { animation: glitchB 7.5s steps(1, end) infinite; }
+    @keyframes glitchA {
+      0%,42%   { transform: translate(0,0);   opacity: 0 }
+      43%      { transform: translate(-7px,2px); opacity: .55 }
+      45%      { transform: translate(4px,-2px); opacity: .35 }
+      46%,88%  { transform: translate(0,0);   opacity: 0 }
+      89%      { transform: translate(-5px,1px); opacity: .5 }
+      90%,100% { transform: translate(0,0);   opacity: 0 }
+    }
+    @keyframes glitchB {
+      0%,10%   { transform: translate(0,0);   opacity: 0 }
+      11%      { transform: translate(6px,-3px); opacity: .45 }
+      13%      { transform: translate(-4px,2px); opacity: .3 }
+      14%,73%  { transform: translate(0,0);   opacity: 0 }
+      74%      { transform: translate(5px,2px); opacity: .4 }
+      75%,100% { transform: translate(0,0);   opacity: 0 }
+    }
+
+    .sub { animation: breathe 6s ease-in-out infinite; }
+    @keyframes breathe { 0%,100% { opacity: .40 } 50% { opacity: .78 } }
+
+    .eye { opacity: 0; }
+    .e1 { animation: blink 11s ease-in-out infinite    .4s }
+    .e2 { animation: blink 13s ease-in-out infinite   3.1s }
+    .e3 { animation: blink  9s ease-in-out infinite   6.2s }
+    .e4 { animation: blink 15s ease-in-out infinite   1.7s }
+    .e5 { animation: blink 12s ease-in-out infinite   8.4s }
+    .e6 { animation: blink 10s ease-in-out infinite   5.0s }
+    .e7 { animation: blink 14s ease-in-out infinite   2.3s }
+    .e8 { animation: blink 16s ease-in-out infinite   9.6s }
+    @keyframes blink {
+      0%,6%    { opacity: 0 }
+      9%       { opacity: .85 }
+      12%      { opacity: .15 }
+      15%      { opacity: .9 }
+      22%      { opacity: .75 }
+      26%      { opacity: 0 }
+      100%     { opacity: 0 }
+    }
+
+    .scanbar { animation: sweep 9s linear infinite; }
+    @keyframes sweep { from { transform: translateY(-60px) } to { transform: translateY(300px) } }
+
+    .pulse { animation: pulse 5s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: .10 } 50% { opacity: .30 } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="260" fill="url(#vig)"/>
+
+    <!-- drifting fog -->
+    <g filter="url(#fogBlur)" opacity="0.5">
+      <ellipse class="fog"  cx="260"  cy="185" rx="230" ry="60" fill="#5a5a5a" opacity="0.30"/>
+      <ellipse class="fog2" cx="640"  cy="215" rx="300" ry="55" fill="#6e6e6e" opacity="0.22"/>
+      <ellipse class="fog3" cx="980"  cy="170" rx="250" ry="65" fill="#4a4a4a" opacity="0.30"/>
+      <ellipse class="fog2" cx="420"  cy="60"  rx="260" ry="45" fill="#3f3f3f" opacity="0.28"/>
+      <ellipse class="fog"  cx="880"  cy="45"  rx="220" ry="40" fill="#525252" opacity="0.22"/>
+    </g>
+
+    <!-- watching eyes in the dark -->
+    <g>
+      <g class="eye e1" transform="translate(90,58)">
+        <ellipse rx="9" ry="4.2" fill="#e6e6e6"/><circle r="2.6" fill="#0a0a0a"/>
+      </g>
+      <g class="eye e2" transform="translate(168,120)">
+        <ellipse rx="7" ry="3.4" fill="#dcdcdc"/><circle r="2.1" fill="#0a0a0a"/>
+      </g>
+      <g class="eye e3" transform="translate(46,196)">
+        <ellipse rx="8" ry="3.8" fill="#e0e0e0"/><circle r="2.3" fill="#0a0a0a"/>
+      </g>
+      <g class="eye e4" transform="translate(1112,74)">
+        <ellipse rx="9" ry="4.2" fill="#e6e6e6"/><circle r="2.6" fill="#0a0a0a"/>
+      </g>
+      <g class="eye e5" transform="translate(1036,178)">
+        <ellipse rx="7" ry="3.4" fill="#d8d8d8"/><circle r="2.1" fill="#0a0a0a"/>
+      </g>
+      <g class="eye e6" transform="translate(1152,214)">
+        <ellipse rx="8" ry="3.8" fill="#e0e0e0"/><circle r="2.3" fill="#0a0a0a"/>
+      </g>
+      <g class="eye e7" transform="translate(322,32)">
+        <ellipse rx="6.5" ry="3.1" fill="#d0d0d0"/><circle r="1.9" fill="#0a0a0a"/>
+      </g>
+      <g class="eye e8" transform="translate(902,236)">
+        <ellipse rx="6.5" ry="3.1" fill="#d0d0d0"/><circle r="1.9" fill="#0a0a0a"/>
+      </g>
+    </g>
+
+    <!-- title -->
+    <g text-anchor="middle" font-family="'Courier New', 'DejaVu Sans Mono', monospace" font-weight="bold">
+      <text class="g1" x="600" y="128" font-size="76" letter-spacing="12" fill="#8a8a8a" filter="url(#softBlur)">NEKUZAKY</text>
+      <text class="g2" x="600" y="128" font-size="76" letter-spacing="12" fill="#bdbdbd" filter="url(#softBlur)">NEKUZAKY</text>
+      <text class="title" x="600" y="128" font-size="76" letter-spacing="12" fill="#f2f2f2" filter="url(#glow)">NEKUZAKY</text>
+      <text class="sub" x="600" y="172" font-size="17" letter-spacing="11" fill="#c9c9c9">SOFTWARE DEVELOPER</text>
+    </g>
+
+    <!-- flat line that never quite dies -->
+    <path class="pulse" d="M300 205 H520 l14 -16 l12 32 l14 -40 l16 48 l13 -24 H900" fill="none" stroke="#d4d4d4" stroke-width="1.6" stroke-linejoin="round"/>
+
+    <!-- CRT overlay -->
+    <rect width="1200" height="260" fill="url(#scanlines)"/>
+    <rect class="scanbar" x="0" y="0" width="1200" height="46" fill="url(#scanGrad)" opacity="0.07"/>
+  </g>
+</svg>
