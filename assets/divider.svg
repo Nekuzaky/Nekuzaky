@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 22" width="1200" height="22" preserveAspectRatio="none" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="dline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0a0a0a"/>
+      <stop offset="18%"  stop-color="#6e6e6e"/>
+      <stop offset="50%"  stop-color="#e8e8e8"/>
+      <stop offset="82%"  stop-color="#6e6e6e"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sweep { animation: run 6s linear infinite; }
+    @keyframes run { from { transform: translateX(-320px) } to { transform: translateX(1240px) } }
+    .drip1 { animation: fall 7s ease-in infinite     .0s }
+    .drip2 { animation: fall 9s ease-in infinite    2.4s }
+    .drip3 { animation: fall 8s ease-in infinite    4.9s }
+    .drip4 { animation: fall 11s ease-in infinite   6.3s }
+    @keyframes fall {
+      0%,55%   { transform: translateY(0);   opacity: 0 }
+      60%      { transform: translateY(0);   opacity: .9 }
+      100%     { transform: translateY(15px); opacity: 0 }
+    }
+    .glitch { animation: cut 5.5s steps(1,end) infinite; }
+    @keyframes cut { 0%,92% { opacity: 0 } 93% { opacity: 1 } 95% { opacity: 0 } 96% { opacity: 1 } 97%,100% { opacity: 0 } }
+  </style>
+
+  <rect x="0" y="4" width="1200" height="2.4" fill="url(#dline)"/>
+  <rect class="sweep" x="0" y="3" width="300" height="4.4" fill="url(#spark)" opacity="0.55"/>
+  <rect class="glitch" x="410" y="3" width="120" height="4.4" fill="#0a0a0a"/>
+  <rect class="glitch" x="760" y="2" width="70"  height="6"   fill="#ffffff" opacity="0.8"/>
+
+  <g fill="#c9c9c9">
+    <circle class="drip1" cx="212"  cy="7" r="1.9"/>
+    <circle class="drip2" cx="537"  cy="7" r="1.6"/>
+    <circle class="drip3" cx="806"  cy="7" r="2.1"/>
+    <circle class="drip4" cx="1004" cy="7" r="1.7"/>
+  </g>
+</svg>
